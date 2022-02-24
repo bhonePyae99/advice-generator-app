@@ -37,7 +37,7 @@ export default function Home({ advice }) {
             advice #{randomAdvice.id}
           </h4>
           <div className="text-2xl text-white font-bold py-7  border-b-2 mb-10 relative">
-            <h2>"{randomAdvice.advice}"</h2>
+            <h2>{`"${randomAdvice.advice}"`}</h2>
           </div>
           <div
             className={
