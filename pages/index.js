@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-grayishBlue rounded-xl a md:w-[500px] w-[95%] h-auto p-7 absolute left-1/2 top-1/2 text-center -translate-x-1/2 -translate-y-1/2">
+        <div className="bg-grayishBlue rounded-xl md:w-[500px] w-[95%] h-auto p-7 absolute left-1/2 top-1/2 text-center -translate-x-1/2 -translate-y-1/2">
           <h4 className="uppercase text-neonGreen tracking-widest font-bold">
             advice #117
           </h4>
