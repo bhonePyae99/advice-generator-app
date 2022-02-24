@@ -11,11 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-grayishBlue rounded-xl md:w-[500px] w-[95%] h-auto p-7 absolute left-1/2 top-1/2 text-center -translate-x-1/2 -translate-y-1/2">
+        <div className="bg-grayishBlue relative text-center rounded-xl md:w-[500px] w-[95%] h-auto p-7 mt-40 mx-auto">
           <h4 className="uppercase text-neonGreen tracking-widest font-bold">
             advice #117
           </h4>
-          <div className="text-2xl text-white font-bold py-7  border-b mb-10 relative">
+          <div className="text-2xl text-white font-bold py-7 mb-10 relative">
             <h2>"it is better to do the shit you want to do"</h2>
             <svg
               width="444"
@@ -23,7 +23,7 @@ export default function Home() {
               height="16"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g fill="none" fill-rule="evenodd">
+              <g fill="#fff" fill-rule="evenodd">
                 <path fill="#4E5D73" d="M0 8h196v1H0zM248 8h196v1H248z" />
                 <g transform="translate(212)" fill="#CEE3E9">
                   <rect width="6" height="16" rx="3" />
