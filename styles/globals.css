@@ -9,7 +9,6 @@ body {
 }
 
 .bright {
-  cursor: pointer;
   transition: all;
   transition-timing-function: ease;
   transition-duration: 0.3s;
